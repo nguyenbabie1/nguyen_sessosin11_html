@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 10px;
+    background-color:rgb(215, 212, 212);
+}
+.green{
+    background-color: #76bcbd;
+    padding: 30px;
+    width: 100%;
+    border-radius: 3px;
+    color: #76bcbd;
+}
+.green-two{
+    background-color: #76bcbd;
+    padding: 30px;
+    width: 100%;
+    border-radius: 3px;
+    color: #76bcbd;
+    margin-top: 10px;
+}
+section{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.section-three{
+    display: flex;
+    gap: 10px;
+}
+.orange{
+    background-color:#eb5c48;
+    color: #eb5c48;
+    width: 100%;
+    border-radius: 3px;
+    height: 150px;
+}
+.yellow{
+    background-color: #f9ae32;
+   color: #f9ae32;
+   width: 100%;
+   border-radius: 3px;
+   height: 150px;
+}
+.yellow2{
+    background-color: #f5b343;
+    color: #f5b343;
+    height: 150px;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 3px;
+
+}
+.blue{
+    background-color: #254b67;
+    color: #254b67;
+    height: 150px;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 3px;
+}
+.red{
+    background-color: #ed7b71;
+    color: #ed7b71;
+    height: 150px;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 3px;
+
+}
+@media screen and (max-width:1024px) {
+    .section-three{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-one {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.child-one {
+    color: #9f4a4b;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+.child-two {
+    background-color: #9f4a4b;
+    color: #fff;
+    font-size: 20px;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.body-two {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.child-three {
+    display: flex;
+    background-color: #9f4a4b;
+    color: #fff;
+    font-size: 20px;
+    height: 300px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.child-four {
+    display: flex;
+    background-color: #9f4a4b;
+    color: #fff;
+    font-size: 20px;
+    height: 300px;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.body-three {
+    display: flex;
+    gap: 10px;
+    width: 690px;
+    flex-wrap: wrap;
+}
+
+.child {
+    display: flex;
+    background-color: #9f4a4b;
+    color: #fff;
+    font-size: 20px;
+    height: 150px;
+    width: 223px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1200px) {
+    .body-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child-three {
+        width: 690px;
+    }
+
+    .child-four {
+        width: 690px;
+    }
+
+    .child {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .child-two {
+        width: 690px;
+    }
+
+    .body-one {
+        width: 690px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .child {
+        width: 690px;
+    }
+}

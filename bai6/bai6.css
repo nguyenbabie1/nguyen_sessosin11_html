@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    height: 30px;
+    width: 100%;
+    background-color: #5995db;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2d6ff;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+    height: 200px;
+    width: 100%;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.child-one {
+    width: 34%;
+    height: 300px;
+    display: flex;
+    background-color: #f5cf8d;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.child-two {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    background-color: #c8c6fa;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.child-three {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    background-color: #f09a9d;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.child-four {
+    width: 100%;
+    height: 150px;
+    background-color: #d7e9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.child-five {
+    width: 100%;
+    height: 200px;
+    background-color: #ebedf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+@media screen and (max-width:1200px) {
+    .child {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .child5 {
+        order: 5;
+    }
+
+    .child4 {
+        width: 50%;
+        height: 300px;
+        order: 3;
+    }
+
+    .child1 {
+        width: 50%;
+        order: 4;
+    }
+
+    .child2 {
+        width: 50%;
+        order: 2;
+    }
+
+    .child3 {
+        width: 50%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .child {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .child5 {
+        order: 5;
+    }
+
+    .child4 {
+        width: 100%;
+        height: 300px;
+        order: 4;
+    }
+
+    .child1 {
+        width: 100%;
+        order: 3;
+    }
+
+    .child2 {
+        width: 100%;
+        order: 1;
+    }
+
+    .child3 {
+        width: 100%;
+        order: 2;
+    }
+}
